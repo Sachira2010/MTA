@@ -15,10 +15,6 @@
         <object name="resource.resourcemanager"></object>
         <object name="resource.votemanager"></object>
     </group>
-    <group name="SuperModerator">
-        <acl name="Moderator"></acl>
-        <acl name="SuperModerator"></acl>
-    </group>
     <group name="Admin">
         <acl name="Moderator"></acl>
         <acl name="SuperModerator"></acl>
@@ -27,6 +23,7 @@
         <acl name="Website"></acl>
         <object name="user.website"></object>
         <object name="resource.*"></object>
+        <object name="user.SACHIRA"></object>
     </group>
     <group name="Console">
         <acl name="Moderator"></acl>
